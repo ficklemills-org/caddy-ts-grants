@@ -4,6 +4,11 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    # Version bumps for direct dependencies only: as a Caddy plugin, go.mod
+    # sets minimum versions for every build that includes it. Security
+    # updates still cover indirect dependencies.
+    allow:
+      - dependency-type: direct
   - package-ecosystem: github-actions
     directory: /
     schedule:
