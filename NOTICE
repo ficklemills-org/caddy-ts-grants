@@ -1,0 +1,7 @@
+caddy-ts-grants
+Copyright 2026 Ficklemills
+
+This product includes code adapted from caddy-tailscale
+(https://github.com/tailscale/caddy-tailscale),
+Copyright (c) Tailscale Inc & contributors,
+licensed under the Apache License, Version 2.0.
