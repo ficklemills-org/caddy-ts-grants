@@ -4,7 +4,7 @@ go 1.26.3
 
 require (
 	github.com/caddyserver/caddy/v2 v2.9.0
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.28.0
 	tailscale.com v1.98.2
 )
 
